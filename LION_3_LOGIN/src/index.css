@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+  justify-content: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+.A{
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background: rgb(243, 243, 243);
+  
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.a{
+  display: inline-block;
+  
+  padding-top: 50px;
+  
+
+}
+
+.title{
+  display: flex;
+  width: 180px;
+  height: 40px;
+  background: rgb(221, 218, 218);
+  flex-direction: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: bold;
+  margin-bottom: 10px; 
+  margin-left: 60px;
+  border-color: white;
+}
+
+.log{
+  display: flex;
+}
+
+.bb{
+  padding: 15px 20px;
+  background: rgb(177, 236, 255);
+  border-radius: 5px;
+  border-color: white;
+}
+
+
+
+.b{
+  align-items: center;
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+  background:rgb(114, 148, 253);
+  margin-left: 25px;
+  margin-top: 2px;
+  border-color: white;
+}
+
+
+.t{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;  
+}
+
+input {
+  width:180px;
+  height:20px;
+  font-size:16px;
+  margin-left:15px;
+  border-color: white;
+}
+
+.b{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
