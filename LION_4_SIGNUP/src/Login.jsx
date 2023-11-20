@@ -1,5 +1,7 @@
+import "./Login.css";
 import react from 'react';
 import {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 const User = {
   email: "test@naver.com",
@@ -64,15 +66,15 @@ export default function Login() {
 
   return (
     
-    <div class="main">
-      <div class="A">
-        <div class='a'>
-          <div class="title">
+    <div className="main">
+      <div className="A">
+        <div className='a'>
+          <div className="title">
             <p>Login</p>
           </div>
 
-          <div class="log">
-            <div class="t">
+          <div className="log">
+            <div className="t">
               <input 
                 type="text" 
                 placeholder="email"
@@ -87,14 +89,16 @@ export default function Login() {
               />
             </div>
             <div>
-              <button class="bb" onClick={compareBt} disabled={notAllow} >로그인</button>
+              <button className="bb" onClick={compareBt} /*disabled={notAllow}*/ >로그인</button>
             </div>
           </div>
 
           <div>
-            <button class="b">아이디 찾기</button>
-            <button class="b">비밀번호 찾기</button>
-            <button class="b" onClick={signUp}>회원가입</button>
+            <button className="b">아이디 찾기</button>
+            <button className="b">비밀번호 찾기</button>
+            <Link to="/signup">
+            <button className="b" onClick={signUp}>회원가입</button>
+            </Link>
           </div>
         </div>
       </div>

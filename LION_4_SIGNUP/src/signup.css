@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Nanum+Pen+Script&display=swap');
+
+
+.main{
+  background-color: rgb(241, 240, 240);
+  width: 100vh;
+  height: 100vh;
+  margin-left: 100px;  
+  display: flex;
+
+  
+}
+
+.title{
+  padding-top: 50px;
+  padding-left: 100px;
+  font-size: 50px;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align:center;
+  
+}
+
+.email{
+  margin-left: 100px;
+  color: rgb(71, 71, 71);
+  vertical-align : middle;
+}
+
+.fpw{
+  padding-top: 20px; 
+  margin-left: 100px;
+  color: rgb(71, 71, 71);
+  
+}
+
+.spw{
+  padding-top: 20px; 
+  margin-left: 100px;
+  color: rgb(71, 71, 71);
+}
+
+.agree{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 300px;
+  height: 30px;
+  background:rgb(114, 148, 253);
+  border-color: rgb(241, 240, 240);
+  border-radius: 10px;
+}
+
+.check{
+  margin-left: 30px;
+  border-color: rgb(190, 190, 190);
+  border-radius: 5px;
+}
+
+.FPWins{
+  font-size: 12px;
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} 
